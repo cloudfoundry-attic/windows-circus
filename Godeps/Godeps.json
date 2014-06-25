@@ -1,0 +1,26 @@
+{
+	"ImportPath": "github.com/cloudfoundry-incubator/windows-circus",
+	"GoVersion": "go1.3",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/candiedyaml",
+			"Rev": "50e233a7fb31a32b174c1263c7b786eba1fa79d4"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/runtime-schema/models",
+			"Rev": "012c337a96a2bdb48605fcb81d17b1e14ebc06dc"
+		},
+		{
+			"ImportPath": "github.com/onsi/ginkgo",
+			"Comment": "v1.0.0-12-g8c58607",
+			"Rev": "8c586078cd1019084c081e889d007fba9c6f4198"
+		},
+		{
+			"ImportPath": "github.com/onsi/gomega",
+			"Rev": "1d0e3e0a4e04ad1bc22b275068f4667738b43a02"
+		}
+	]
+}
